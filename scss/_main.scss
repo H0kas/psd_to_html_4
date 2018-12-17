@@ -1,0 +1,367 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-09-03, 09:13:38
+    Author     : kuzmi
+*/
+
+body {
+    background-color: $body_color;
+    font-family: "Roboto";
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;    
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 35px;
+    font-weight: 800;
+}
+
+.main-web {
+    padding-bottom: 30px;
+    color: $white_color;  
+}
+
+main {
+    .row-border {
+        border-top: 1px solid #000;
+    }
+    .row-height-first {
+        height: 485px;
+    }
+    .bg-img-more {
+        background-image: url("../img/zyskaj_wiecej.jpg");
+    }
+    .more-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .bg-img-vod {
+        background-image: url("../img/vod.jpg");
+    }
+    .row-height-second {
+        height: 420px;
+    }
+    .bg-color-package {
+        background-color: rgb(103,81,144);
+    }
+    .online-border {
+        border-left: 1px solid #000;
+    }
+    .bg-img-online {
+        background-image: url("../img/online.jpg");
+        background-repeat: no-repeat;
+        height: 295px;
+        border-bottom: 5px solid $green_color;
+    }
+    .row-height-online {
+        height: 125px;
+    }
+    .bg-color-online {
+        background-color: $green_color;
+    }
+    .text-right{
+        text-align: right;
+    }
+    .row-height-third {
+        height: 340px;
+    }
+    .bg-color-promotion {
+        background-color: #262626;
+    }
+    .bg-img-support {
+        background-image: url("../img/support.jpg");
+    }
+    .supp-border {
+        border-left: 1px solid #000;
+    }
+    .bg-img-app {
+        background-image: url("../img/app.jpg");
+    }
+    #more-box {
+        padding-bottom: 5px;
+        .more-padding {
+            padding-left: 15px;
+        }
+        h1 {
+            margin: 0px;
+        }
+        .round-icon-more {
+            width: 50px;
+            height: 50px;
+            border: 2px solid #fff6;
+            border-radius: 50px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+        .more-mouse-icon {
+            padding-top: 7px;
+        }
+        .mouse-plus::after {
+            content: '+';
+            color: white;
+            position: relative;
+            right: 85px;
+            top: 10px;
+            font-size: 20px;
+        }
+        .more-present-icon {
+            padding-top: 10px;
+            padding-left: 2px;
+        }
+        .more-text {
+            font-size: 50px;
+            margin: 0px;
+            font-weight: 300;
+            line-height: 50px;
+            .hbo-text {
+                font-weight: bold;
+            }
+        }
+        .more-text-low {
+            font-size: 30px;
+            margin: 0px; 
+            font-weight: 300;
+        }
+        .more-text-money {
+            font-size: 100px;
+            font-weight: bold;
+            line-height: 80px;
+            margin: 0;
+            margin-left: -20px;
+            margin-top: 5px;
+            span {
+                font-size: 30px;
+                margin-left: -15px;
+            }
+        }
+    }
+    #vod-box {
+        p {
+            margin-bottom: 0px;
+        }
+        .watch-text {
+            color: rgb(162,162,162);
+            font-size: 11px;
+        }
+        .stat-text {
+            text-align: center;
+            border-left: 1px solid $dark_grey_color;
+            i {
+                font-size: 20px;
+            }
+        }
+        .vod-text {
+            font-size: 25px;
+            line-height: 30px;
+            padding-bottom: 15px;
+        }
+        .vod-text-low {
+            line-height: 10px;
+            span {
+                padding-left: 15px;
+            }
+        }
+        .fa-angle-right,
+        .fa-angle-left {
+            font-size: 30px;
+        }
+    }
+    #package-box {
+        .round-icon {
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            background-color: #fff;
+            line-height: 90px;
+            margin-top: 13px;
+        }
+        .round-round-icon {
+            height: 130px;
+            width: 130px;
+            border-radius: 100px;
+            border: 2px solid #ffffff1a;
+        }
+        .package-text {
+            margin-top: -10px;
+            background-color: $purple_color;
+            font-size: 14px;
+            line-height: 17px;
+            span {
+                font-weight: bold;
+            }
+        }
+        h2 {
+            margin: 0px;
+        }
+        .package-head-text {
+            padding-bottom: 20px;
+        }
+        .round-plus::after {
+           content: '+';
+            color: white;
+            position: absolute;
+            right: -10px;
+            top: 40px;
+            font-size: 35px;
+        }
+        .btn-package {
+            padding: 5px 20%;
+            background: #4d3c6c;
+            border: 2px solid #b3a8c8;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+        .btn-package-text {
+            font-size: 20px;
+        }
+    }
+    #online-box {
+        p {
+            margin-bottom: 0px;
+        }
+        .row-padding {
+            padding: 30px 20px 15px 30px;
+        }
+        .stat-text {
+            text-align: center;
+            border-left: 1px solid #b5d47f;
+            padding-left: 20px;
+            margin-top: -10px;
+            i {
+                font-size: 20px;
+            }
+        }
+        .watch-text {
+            color: $white_color;
+            font-size: 11px;
+        }
+        .green-arrow::after {
+            content: '';
+            background-color: $green_color;
+            height: 12px;
+            width: 12px;
+            position: absolute;
+            right: 50%;
+            top: 118px;
+            transform: rotate(45deg);
+        }
+        .round-play-icon {
+            width: 68px;
+            height: 68px;
+            text-align: center;
+            border-radius: 50px;
+            border: 2px solid #ffffff80;
+            img {
+                margin-top: 20px;
+                margin-left: 5px;
+            }
+        }
+        .arrows-row {
+            margin-top: 25%;
+            & > img {
+                margin: 12px;
+            }
+        }
+        .online-text {
+            font-size: 25px;
+            line-height: 22px;
+            margin-bottom: 20px;
+
+        }
+    }
+    #promotion-box {
+        .prmotion-text {
+            margin-bottom: 12px;
+            margin-top: -2px;
+        }
+        .promotion-list-text {
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding: 0px;
+            line-height: 27px;
+        }
+        li {
+            list-style: none;
+        }
+        li::before {
+            content: "\25AA ";
+            color: $green_color;
+            padding-right: 5px;
+            font-size: 20px;
+        }
+        .promotion-price-text {
+            line-height: 18px;
+            font-size: 18px;
+            font-weight: bold;
+            
+        }
+        .promotion-price {
+            font-size: 55px;
+            font-weight: bold;
+            margin-top: -27px;
+            margin-left: 10px;
+            span {
+                font-size: 25px;
+            }
+        }
+    }
+    #support-box {
+        p {
+            line-height: 17px;
+            font-size: 14px;
+        }
+        .round-support-foto {
+            height: 140px;
+            width: 140px;
+            border-radius: 100px;
+            border: 2px solid #ffffff1a;  
+        }
+        .bg-img-support-foto {
+            background-image: url("../img/support_foto.jpg");
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            background-position: center;
+            background-size: cover;
+            margin-top: 19px;
+        }
+        .support-row-marg {
+            margin-top: 5px;
+        }
+        .support-text-margin {
+            margin-left: 20px;
+        }
+        img {
+            padding-left: 15px;
+            margin-top: -20px;
+        }
+        .support-text {
+            padding-top: 20px;
+        }
+    }
+    #app-box {
+        h2 {
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 20px;
+        }
+        img:nth-child(2) {
+            padding: 0 20px;
+        }
+    }
+
+}

@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-09-03, 09:12:20
+    Author     : kuzmi
+*/
+.footer-web {
+    padding-top: 10px;
+    background-color: #1a1a1a;
+    color: $light_grey_color; 
+}
+footer {
+    p {
+        font-size: 14px;
+        margin: 0px;
+    }
+    .row-border {
+        margin-top: 15px;
+        padding-top: 10px;
+        border-top: 1px solid #4c4c4c;
+    }
+    .footer-app-text {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .footer-head {
+        padding-bottom: 5px;
+    }
+    #app-box {
+        img {
+            padding-top: 5px;
+        }
+        .app-text {
+            line-height: 25px;
+            margin-top: -2px;
+        }
+    }
+    #info-box {
+        .info-row-number {
+            margin-top: -5px;
+        }
+        img:nth-child(2) {
+            padding: 0 15px 0 10px;
+        }
+        .info-nr {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .info-small-text {
+            font-size: 11px;
+            margin-top: -5px;
+        }
+    }
+    #client-box {
+        .client-nr-big {
+            font-size: 30px;
+            font-weight: bold;
+            padding-left: 10px;
+            margin-top: -5px;
+        }
+        .client-text {
+            font-size: 12px;
+            margin-top: 5px;
+        }
+        img {
+            margin-top: -5px;
+        }
+        .client-nr-small {
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 20px;
+        }
+        .client-text-small {
+            font-size: 11px;
+            margin-top: 5px;
+        }
+    }
+    #social-box {
+        ul {
+            list-style: none;
+        }
+        #first-list{
+            ul {
+                padding-left: 0;
+                padding-top: 5px;
+            }
+            li {
+                padding-right: 15px;
+                font-size: 14px;
+            }
+        }
+        #second-list {
+            li {
+                padding-left: 10px;
+            }
+        }
+    }
+    
+}

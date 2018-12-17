@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-09-03, 09:12:07
+    Author     : kuzmi
+*/
+.head-web {
+    background-color: #1a1a1a;
+    height: 80px;
+}
+.hidden-show {
+    z-index: 10001;
+    position: absolute;
+}
+#hidden-menu {
+    cursor: pointer;
+}
+header {
+    p {
+        color: $light_grey_color;
+    }
+    .menu-box {
+        width: 240px;
+        background-color: #1a1a1a;
+        padding: 20px 0px;
+        h3 {
+            color: $purple_color;
+        }
+        ul {
+            padding: 0px;
+            margin: 0px;
+            line-height: 30px;
+            list-style: none;
+        }
+        li {
+            border-top: 1px solid #white;
+        }
+    }
+    .hamburger {
+        background-color: #3c3c3c;
+        max-width: 80px;
+        height: 80px;
+        padding: 0px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 80px;
+    }
+    .header-list {
+        font-size: 14px;
+        padding-top: 20px;
+        margin-right: -20px;
+        li {
+            height: 20px;
+        }
+        li:nth-child(2) {
+            padding: 0px 25px 0px 15px;
+            border-right: 1px solid $dark_grey_color;
+            span {
+                padding-left: 7px;
+                font-weight: bold;
+            }
+        }
+        li:nth-child(3) {
+            padding: 0px 25px;
+            border-right: 1px solid $dark_grey_color;
+            i {
+                font-size: 17px;
+                padding-right: 10px;
+            }
+        }
+        li:last-child {
+            padding-left: 25px;
+            i {
+                padding-right: 10px;
+            }
+        }
+    }
+    
+}

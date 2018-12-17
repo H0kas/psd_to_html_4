@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-09-04, 11:04:23
+    Author     : kuzmi
+*/
+
+    .text-green-color {
+        color: $green_color;
+    }
+    .text-purple-color {
+        color: $purple_color;
+    }
+    .text-blue-color {
+        color: $blue_color;
+    } 
+    .text-pink-color {
+        color: $pink_color;
+    }
+    .text-dgrey-color {
+        color: $dark_grey_color;
+    }
+    .text-lgrey-color {
+        color: $light_grey_color;
+    } 
+    .text-white-color {
+        color: $white_color;
+    }
+    .flex-list {
+        display: flex;
+    }
+    .reset-padding {
+        padding: 0px;
+    }
+    .global-padding {
+        padding: 30px;
+    }
+    .reset-margin {
+        margin: 0px;
+    }
+    .fa-phone {
+        transform: rotate(90deg);
+    }
+    .text-number {
+        font-weight: bold;
+        padding: 2px;
+    }
+    .text-size-bold {
+        font-size: 14px;
+        font-weight: bold;
+    }

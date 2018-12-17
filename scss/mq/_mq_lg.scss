@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-09-03, 09:16:23
+    Author     : kuzmi
+*/
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+h1 {
+        font-size: 40px;
+    }
+    h2{
+        font-size: 31px;
+    }
+    .text-size-bold {
+        font-size: 12px;
+    }
+
+    main {
+        .bg-img-more {
+            background-position: center;
+        }
+        #more-box {
+            .mouse-plus {
+                display: none;
+            }
+            .more-text-money {
+                text-align: center;
+                font-size: 70px;
+                span {
+                    margin-left: -5px
+                }
+            }
+            .more-text {
+                font-size: 25px;
+            }
+            .more-text-low {
+                font-size: 15px;
+            }
+        }
+        #package-box {
+            .round-round-icon {
+                display: none;
+            }
+            .package-text {
+                background-color: #fff3;
+                border-radius: 20px;
+                padding: 5px 0;
+                margin-top: 0px;
+            }
+            .btn-package-text {
+                font-size: 14px;
+            }
+        }
+        #vod-box {
+            .stat-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+        #support-box {
+            .round-support-foto {
+                height: 0px;
+                width: 0px;
+            }
+            img {
+                display: none;
+            }
+        }
+    }
+    footer {
+        #app-box {
+            padding-bottom: 10px;
+        }
+        #info-box {
+            padding-top: 10px;
+        }
+        .justify-content-end {
+           -ms-flex-pack: center !important;
+            justify-content: center !important; 
+        }
+        .mobile-center {
+            -ms-flex-pack: center !important;
+            justify-content: center !important;
+        }
+        .mobile-icon-center {
+            display: flex;
+            justify-content: center;
+            -ms-flex-pack: center !important;
+        }
+        #social-box {
+            #first-list {
+                li {
+                    padding-right: 10px;
+                }
+            }
+            #second-list {
+                ul {
+                    float: none !important;
+                    padding: 0;
+                    justify-content: center;
+                }
+            }
+        }
+        #client-box {
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+    }
+    
+}

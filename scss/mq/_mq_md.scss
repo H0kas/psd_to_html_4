@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-09-03, 09:16:32
+    Author     : kuzmi
+*/
+
+@media only screen and (max-width: 992px) {
+           .head-web {
+        height: 40px;
+    }
+    header {
+        .hamburger {
+            line-height: 40px;
+            max-width: 40px;
+            height: 40px;
+            background-color: #1a1a1a;
+        }
+        .header-list {
+            display: none;
+        }
+    }
+}
